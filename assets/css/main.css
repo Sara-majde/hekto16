@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primaryColor: #FB2E86;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 35px;
+    color: #0D0E43;
+    font-style: Lato;
+}
+
+.hekto {
+    margin: 0 100px;
+}
+
+input {
+    border: 0;
+}
+
+.Icon {
+    border: 0;
+    padding: 6px;
+    background-color: var(--primaryColor);
+}
+
+form {
+    margin: 0 100px;
+    border: 2px solid #E7E6EF;
+    display: flex;
+}
+
+.Home {
+    color: var(--primaryColor);
+}
