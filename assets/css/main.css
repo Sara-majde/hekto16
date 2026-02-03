@@ -11,14 +11,26 @@
 a {
     text-decoration: none;
 }
+body{
+    height:6000px;
+}
 
 .header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 25px;
+    position: fixed;
+    background-color: antiquewhite;
+    width:100%;
 }
-
+.header .container .list a:hover{
+    color:red;
+    font-size: 19px;
+}
+.header .container .list a{
+    transition:color 1s, font-size 1s;
+}
 ul {
     list-style-type: none;
     display: flex;
